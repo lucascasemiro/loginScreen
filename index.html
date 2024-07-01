@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <h2>Registre-se</h2>
+        <div>
+          <label class="tt" for="name">Nome</label><br>
+          <input type="text" id="name" placeholder="Nome" required>
+        </div>
+
+        <div>
+          <label class="tt" for="surname">Sobrenome</label><br> 
+          <input type="text" id="surname" placeholder="Sobrenome" required>
+        </div>
+
+        <div>
+          <label class="tt" for="email">Email</label><br> 
+          <input type="email" id="email" placeholder="Email" required> 
+        </div>
+
+        <div>
+          <label class="tt" for="password">Senha</label><br> 
+          <input type="password" id="password" placeholder="Senha" required> 
+        </div>
+
+        <div>
+          <label class="tt" for="confirm-password">Confirmar Senha</label><br> 
+          <input type="password" id="confirm-password" placeholder="Confirme a Senha" required> 
+        </div>
+
+        <div class="cb">
+          <input type="checkbox" id="terms-of-use" required>
+          <label for="terms-of-use">Eu li e concordo com os <a href="https://s2-ug.ap4r.com/image-aigc-article/seoPic/origin/5a526ba39616d267d1b9441c65b42295c3d14444.jpg">Termos de Uso</a> deste site</label>
+        </div>
+
+        <div class="cb">
+          <input type="checkbox" id="newsletter">
+          <label for="newsletter">Quero receber notícias e novidades deste site no meu email</label>
+        </div>
+
+        <br><button type="submit">Registrar</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
