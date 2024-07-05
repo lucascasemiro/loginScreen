@@ -12,29 +12,30 @@
   <div class="container">
     <div class="content">
       <h2>Registre-se</h2>
+      <form id="registrationForm">
         <div>
           <label class="tt" for="name">Nome</label><br>
           <input type="text" id="name" placeholder="Nome" required>
         </div>
 
         <div>
-          <label class="tt" for="surname">Sobrenome</label><br> 
+          <label class="tt" for="surname">Sobrenome</label><br>
           <input type="text" id="surname" placeholder="Sobrenome" required>
         </div>
 
         <div>
-          <label class="tt" for="email">Email</label><br> 
-          <input type="email" id="email" placeholder="Email" required> 
+          <label class="tt" for="email">Email</label><br>
+          <input type="email" id="email" placeholder="Email" required>
         </div>
 
         <div>
-          <label class="tt" for="password">Senha</label><br> 
-          <input type="password" id="password" placeholder="Senha" required> 
+          <label class="tt" for="password">Senha</label><br>
+          <input type="password" id="password" placeholder="Senha" required>
         </div>
 
         <div>
-          <label class="tt" for="confirm-password">Confirmar Senha</label><br> 
-          <input type="password" id="confirm-password" placeholder="Confirme a Senha" required> 
+          <label class="tt" for="confirm">Confirmar Senha</label><br>
+          <input type="password" id="confirm" placeholder="Confirme a Senha" required>
         </div>
 
         <div class="cb">
@@ -47,9 +48,10 @@
           <label for="newsletter">Quero receber notícias e novidades deste site no meu email</label>
         </div>
 
-        <br><button type="submit">Registrar</button>
+        <br><button type="submit" onclick="submiting()">Registrar</button>
       </form>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
